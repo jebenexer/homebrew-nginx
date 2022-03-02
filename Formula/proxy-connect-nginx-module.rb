@@ -1,8 +1,8 @@
 class ProxyConnectNginxModule < Formula
   desc "Proxy Connect"
   homepage "https://github.com/chobits/ngx_http_proxy_connect_module"
-  url "https://github.com/chobits/ngx_http_proxy_connect_module/archive/refs/heads/6dce720.tar.gz"
-  sha256 "a283a5b465c600369d407a1bd42fddb82ea367f26ee1a70b14c0272ecf15f46e"
+  url "https://api.github.com/repos/chobits/ngx_http_proxy_connect_module/tarball/6dce7204426255f3fde5ec7a71a43454c6e9ca84"
+  sha256 "ff102986b80eda5d0963afd97aa412b58b0f3ddf02d8de4ed66a423dadf1bef0"
 
   def install
     pkgshare.install Dir["*"]
