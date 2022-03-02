@@ -146,6 +146,12 @@ class NginxFull < Formula
     depends_on "#{name}-nginx-module" if build.with?("#{name}-module")
   end
 
+  if build.with?("proxy-connect-module")
+    patch do
+      url "https://raw.githubusercontent.com/chobits/ngx_http_proxy_connect_module/v0.0.2/patch/proxy_connect_rewrite_1018.patch"
+    end
+  end
+
   if build.with?("no-pool-nginx")
     # https://github.com/openresty/no-pool-nginx
     patch :p2 do
