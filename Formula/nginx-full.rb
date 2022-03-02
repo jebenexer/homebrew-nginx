@@ -106,6 +106,7 @@ class NginxFull < Formula
       "php-session"         => "Build with Parse PHP Sessions support",
       "tarantool"           => "Build with Tarantool upstream support",
       "push-stream"         => "Build with HTTP Push Stream support",
+      "proxy-connect"       => "Build with Proxy Connect",
       "realtime-req"        => "Build with Realtime Request support",
       "redis"               => "Build with Redis support",
       "redis2"              => "Build with Redis2 support",
